@@ -1,0 +1,15 @@
+{
+  "name": "lab3-unit-tests",
+  "version": "1.0.0",
+  "description": "Lab 3: unit tests with Jest",
+  "type": "module",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
