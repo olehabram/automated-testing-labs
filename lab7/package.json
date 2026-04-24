@@ -1,0 +1,23 @@
+{
+  "name": "lab7-automation-solution",
+  "version": "1.0.0",
+  "description": "Lab 7 automation solution with unit, API, UI, and E2E tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:unit": "jest tests/unit --runInBand",
+    "test:api": "jest tests/api --runInBand",
+    "test:ui": "jest tests/ui --runInBand",
+    "test:e2e": "jest tests/e2e --runInBand"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "puppeteer": "^24.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
