@@ -1,0 +1,13 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "Lab 6 E2E tests for user scenarios with Jest and Puppeteer",
+  "main": "e2e.test.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "puppeteer": "^22.15.0"
+  }
+}
