@@ -1,0 +1,26 @@
+{
+  "name": "lab4-api-tests",
+  "version": "1.0.0",
+  "description": "Integration tests for JSONPlaceholder posts API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "jest",
+    "axios",
+    "api-testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "axios": "^1.7.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
