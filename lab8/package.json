@@ -4,12 +4,12 @@
   "description": "Lab 8: comparison of Cypress and TestCafe using SauceDemo UI tests.",
   "private": true,
   "scripts": {
-    "test:cypress": "cypress run --headless",
-    "test:testcafe": "testcafe \"chrome:headless\" testcafe/**/*.test.js",
-    "test": "npm run test:cypress && npm run test:testcafe"
+    "test:cypress": "set ELECTRON_RUN_AS_NODE=&& cypress run --headless",
+    "test:testcafe": "set ELECTRON_RUN_AS_NODE=&& testcafe \"chrome:headless\" testcafe/**/*.test.js",
+    "test": "set ELECTRON_RUN_AS_NODE=&& npm run test:cypress && node -e \"setTimeout(function(){}, 3000)\" && npm run test:testcafe"
   },
   "devDependencies": {
-    "cypress": "^15.5.0",
+    "cypress": "13.17.0",
     "testcafe": "^3.7.2"
   }
 }

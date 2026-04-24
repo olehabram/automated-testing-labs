@@ -100,6 +100,7 @@ lab8/
   README.md
   package.json
   .gitignore
+  cypress.config.js
 ```
 
 ## Реалізовані UI-тести
