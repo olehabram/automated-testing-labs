@@ -1,0 +1,20 @@
+{
+  "name": "lab5-ui-tests",
+  "version": "1.0.0",
+  "description": "Lab 5 UI tests with Jest and Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "jest",
+    "puppeteer",
+    "ui-tests"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "puppeteer": "^24.42.0"
+  }
+}
