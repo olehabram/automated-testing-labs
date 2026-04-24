@@ -1,0 +1,15 @@
+{
+  "name": "lab8-tool-comparison-tests",
+  "version": "1.0.0",
+  "description": "Lab 8: comparison of Cypress and TestCafe using SauceDemo UI tests.",
+  "private": true,
+  "scripts": {
+    "test:cypress": "cypress run --headless",
+    "test:testcafe": "testcafe \"chrome:headless\" testcafe/**/*.test.js",
+    "test": "npm run test:cypress && npm run test:testcafe"
+  },
+  "devDependencies": {
+    "cypress": "^15.5.0",
+    "testcafe": "^3.7.2"
+  }
+}
